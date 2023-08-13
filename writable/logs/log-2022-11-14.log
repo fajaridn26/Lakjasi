@@ -1,0 +1,137 @@
+CRITICAL - 2022-11-14 00:47:16 --> Undefined constant "session"
+in APPPATH\Views\pages-register.php on line 57.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages-register', [], true)
+ 4 APPPATH\Controllers\PagesController.php(26): view('pages-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->register()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 01:08:43 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-11-14 01:08:43 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(184): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(523): CodeIgniter\Model->doFind(false, true)
+ 7 VENDORPATH\myth\auth\src\Authentication\AuthenticationBase.php(130): CodeIgniter\BaseModel->find(true)
+ 8 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(67): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(48): Myth\Auth\Authentication\LocalAuthenticator->check()
+10 SYSTEMPATH\CodeIgniter.php(896): Myth\Auth\Controllers\AuthController->login()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 03:08:40 --> Duplicate entry 'alvin@gmail.com' for key 'PRIMARY'
+CRITICAL - 2022-11-14 03:08:40 --> Duplicate entry 'alvin@gmail.com' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'alvin\', \'alvin@gmail.com\', \'$2y$10$/5MftRV6Z2fY8iYeTdctl.MTzUumCewN3DOS73R6UT2gvGmjZp5NK\', \'2022-11-15\', \'6281936666423\', 2, 1, \'2022-11-14 03:08:40\', \'2022-11-14 03:08:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'alvin\', \'alvin@gmail.com\', \'$2y$10$/5MftRV6Z2fY8iYeTdctl.MTzUumCewN3DOS73R6UT2gvGmjZp5NK\', \'2022-11-15\', \'6281936666423\', 2, 1, \'2022-11-14 03:08:40\', \'2022-11-14 03:08:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'alvin\', \'alvin@gmail.com\', \'$2y$10$/5MftRV6Z2fY8iYeTdctl.MTzUumCewN3DOS73R6UT2gvGmjZp5NK\', \'2022-11-15\', \'6281936666423\', 2, 1, \'2022-11-14 03:08:40\', \'2022-11-14 03:08:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (:nama:, :email_pengguna:, :password:, :tanggal_lahir:, :no_whatsapp:, :role:, :status_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthenticationController.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 03:15:59 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages-login.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages-login', [], true)
+ 3 APPPATH\Controllers\PagesController.php(44): view('pages-login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 03:16:00 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages-login.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages-login', [], true)
+ 3 APPPATH\Controllers\PagesController.php(44): view('pages-login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 03:16:02 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages-login.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages-login', [], true)
+ 3 APPPATH\Controllers\PagesController.php(44): view('pages-login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 03:16:06 --> syntax error, unexpected token "else", expecting end of file
+in APPPATH\Views\pages-login.php on line 58.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages-login', [], true)
+ 3 APPPATH\Controllers\PagesController.php(44): view('pages-login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-14 03:55:44 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\users-profile.php on line 352.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 3 APPPATH\Controllers\PagesController.php(87): view('users-profile', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 04:09:27 --> Duplicate entry 'fajar@gmail.com' for key 'PRIMARY'
+CRITICAL - 2022-11-14 04:09:27 --> Duplicate entry 'fajar@gmail.com' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$OCb5ZavXB96xYvjIR6RTXuAsYBVPNCsqVqWt6iS3N9R68ru1leeOu\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:09:27\', \'2022-11-14 04:09:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$OCb5ZavXB96xYvjIR6RTXuAsYBVPNCsqVqWt6iS3N9R68ru1leeOu\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:09:27\', \'2022-11-14 04:09:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$OCb5ZavXB96xYvjIR6RTXuAsYBVPNCsqVqWt6iS3N9R68ru1leeOu\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:09:27\', \'2022-11-14 04:09:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (:nama:, :email_pengguna:, :password:, :tanggal_lahir:, :no_whatsapp:, :role:, :status_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthenticationController.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-14 04:11:01 --> Duplicate entry 'fajar@gmail.com' for key 'PRIMARY'
+CRITICAL - 2022-11-14 04:11:01 --> Duplicate entry 'fajar@gmail.com' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$2ypz8y08QvbxodDmNayCHOvKXjxx3xKy94tETz6u2TfFVSGyhE3KC\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:11:01\', \'2022-11-14 04:11:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$2ypz8y08QvbxodDmNayCHOvKXjxx3xKy94tETz6u2TfFVSGyhE3KC\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:11:01\', \'2022-11-14 04:11:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (\'Fajar\', \'fajar@gmail.com\', \'$2y$10$2ypz8y08QvbxodDmNayCHOvKXjxx3xKy94tETz6u2TfFVSGyhE3KC\', \'2022-11-15\', \'081936666423\', 2, 1, \'2022-11-14 04:11:01\', \'2022-11-14 04:11:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akun` (`nama`, `email_pengguna`, `password`, `tanggal_lahir`, `no_whatsapp`, `role`, `status_active`, `created_at`, `updated_at`) VALUES (:nama:, :email_pengguna:, :password:, :tanggal_lahir:, :no_whatsapp:, :role:, :status_active:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthenticationController.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,774 @@
+ERROR - 2022-12-22 09:40:35 --> MySQL server has gone away
+CRITICAL - 2022-12-22 09:40:35 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `akun`
+WHERE `email_pengguna` = \'admin@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `akun`
+WHERE `email_pengguna` = \'admin@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `akun`
+WHERE `email_pengguna` = \'admin@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun`
+WHERE `email_pengguna` = :email_pengguna:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthenticationController.php(83): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Login()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 09:40:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-12-22 09:40:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun`
+WHERE `email_pengguna` = :email_pengguna:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthenticationController.php(83): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:16:10 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:17:25 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:17:31 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:21 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:22 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:22 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:22 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:20:24 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:22:49 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:22:53 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:28:14 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:28:44 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:28:50 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:28:51 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:28:52 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:29:44 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:29:59 --> Undefined variable $riwayat
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayat', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:31:47 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:35:29 --> Undefined variable $riwayatpelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $riwayatpelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:38:10 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:38:22 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:40:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:40:59 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:45:34 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:47:28 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:48:19 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:49:31 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:51:03 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:51:41 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:52:54 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:52:55 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:56:31 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 10:58:20 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 11:00:47 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(84): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 11:04:22 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 11:04:23 --> Undefined variable $pelaporan
+in APPPATH\Views\riwayat-pelaporan.php on line 38.
+ 1 APPPATH\Views\riwayat-pelaporan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\riwayat-pelaporan.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(87): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 11:10:59 --> Attempt to read property "lat" on array
+in APPPATH\Views\riwayat-pelaporan.php on line 41.
+ 1 APPPATH\Views\riwayat-pelaporan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "lat" on array', 'APPPATH\\Views\\riwayat-pelaporan.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(88): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 11:13:31 --> Undefined array key "lat, long"
+in APPPATH\Views\riwayat-pelaporan.php on line 41.
+ 1 APPPATH\Views\riwayat-pelaporan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lat, long"', 'APPPATH\\Views\\riwayat-pelaporan.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(88): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:05:00 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:05:18 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:05:21 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:05:36 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:07:43 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:08:28 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:08:59 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:09:32 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:10:41 --> Call to undefined method App\Models\AkunModel::getAllPelaporan
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(63): CodeIgniter\Model->__call('getAllPelaporan', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:10:54 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:10:54 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:11:26 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:11:26 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:11:42 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:11:42 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:11:42 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:11:42 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:11:43 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:11:43 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:13:14 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:13:14 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:13:20 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:13:20 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:13:26 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:13:26 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:14:32 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:14:32 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-22 20:15:32 --> Unknown column 'role' in 'where clause'
+CRITICAL - 2022-12-22 20:15:32 --> Unknown column 'role' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM pelaporan WHERE role = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM pelaporan WHERE role = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM pelaporan WHERE role = 2')
+ 4 APPPATH\Models\PelaporanModel.php(45): CodeIgniter\Database\BaseConnection->query('SELECT * FROM pelaporan WHERE role = 2')
+ 5 APPPATH\Controllers\PagesController.php(63): App\Models\PelaporanModel->getAllPelaporan()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:25:32 --> Undefined variable $value
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 42.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(99): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-22 20:36:23 --> Undefined array key "nama"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 43.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(99): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

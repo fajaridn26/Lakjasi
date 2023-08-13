@@ -1,0 +1,5 @@
+ERROR - 2022-10-10 23:02:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-10-10 23:04:04 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for %**** failed: No such host is known. 
+ERROR - 2022-10-10 23:43:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	CONSTRAINT `pk_Riwayat` PRIMARY KEY(`status_pelaporan`)
+)...' at line 2

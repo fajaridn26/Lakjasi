@@ -1,0 +1,165 @@
+CRITICAL - 2023-01-08 00:11:14 --> Undefined array key "status"
+in APPPATH\Views\riwayat-pelaporan.php on line 48.
+ 1 APPPATH\Views\riwayat-pelaporan.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\riwayat-pelaporan.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(70): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 00:21:40 --> Undefined array key "status"
+in APPPATH\Views\riwayat-pelaporan.php on line 53.
+ 1 APPPATH\Views\riwayat-pelaporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\riwayat-pelaporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(74): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 00:22:03 --> Undefined variable $data
+in APPPATH\Views\riwayat-pelaporan.php on line 72.
+ 1 APPPATH\Views\riwayat-pelaporan.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\riwayat-pelaporan.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\riwayat-pelaporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('riwayat-pelaporan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(74): view('riwayat-pelaporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->riwayat_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 00:23:25 --> Table 'lakjasi.statuspelaporans' doesn't exist
+ERROR - 2023-01-08 00:27:29 --> Table 'lakjasi.statuspelaporans' doesn't exist
+ERROR - 2023-01-08 00:29:32 --> Table 'lakjasi.statuspelaporans' doesn't exist
+ERROR - 2023-01-08 00:33:55 --> Table 'lakjasi.statuspelaporans' doesn't exist
+ERROR - 2023-01-08 00:42:40 --> Table 'lakjasi.statuspelaporans' doesn't exist
+ERROR - 2023-01-08 00:44:18 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2023-01-08 00:45:16 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2023-01-08 01:13:56 --> Call to undefined method App\Models\StatusPelaporanModel::getstatus
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(92): CodeIgniter\Model->__call('getstatus', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 01:43:02 --> Undefined array key "status"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 55.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(93): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:05:05 --> Cannot add or update a child row: a foreign key constraint fails (`lakjasi`.`status_pelaporan`, CONSTRAINT `status_pelaporan_id_pelaporan_foreign` FOREIGN KEY (`id_pelaporan`) REFERENCES `pelaporan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-01-08 02:05:05 --> Cannot add or update a child row: a foreign key constraint fails (`lakjasi`.`status_pelaporan`, CONSTRAINT `status_pelaporan_id_pelaporan_foreign` FOREIGN KEY (`id_pelaporan`) REFERENCES `pelaporan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Diterima\', \'2023-01-08 02:05:05\', \'2023-01-08 02:05:05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Diterima\', \'2023-01-08 02:05:05\', \'2023-01-08 02:05:05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Diterima\', \'2023-01-08 02:05:05\', \'2023-01-08 02:05:05\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (:id_pelaporan:, :status_pelaporan:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StatusPelaporan.php(19): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\StatusPelaporan->UpdateDiterima('14')
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StatusPelaporan))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:09:59 --> Cannot add or update a child row: a foreign key constraint fails (`lakjasi`.`status_pelaporan`, CONSTRAINT `status_pelaporan_id_pelaporan_foreign` FOREIGN KEY (`id_pelaporan`) REFERENCES `pelaporan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-01-08 02:09:59 --> Cannot add or update a child row: a foreign key constraint fails (`lakjasi`.`status_pelaporan`, CONSTRAINT `status_pelaporan_id_pelaporan_foreign` FOREIGN KEY (`id_pelaporan`) REFERENCES `pelaporan` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Ditolak\', \'2023-01-08 02:09:59\', \'2023-01-08 02:09:59\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Ditolak\', \'2023-01-08 02:09:59\', \'2023-01-08 02:09:59\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (\'14\', \'Laporan Ditolak\', \'2023-01-08 02:09:59\', \'2023-01-08 02:09:59\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `status_pelaporan` (`id_pelaporan`, `status_pelaporan`, `created_at`, `updated_at`) VALUES (:id_pelaporan:, :status_pelaporan:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StatusPelaporan.php(32): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\StatusPelaporan->UpdateDitolak('14')
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StatusPelaporan))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 02:13:59 --> Undefined array key "id_pelaporan"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 97.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelaporan"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(93): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 02:15:02 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 54.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(93): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 02:15:44 --> Undefined array key "nama"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 57.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 57)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(93): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-08 02:16:04 --> Undefined array key "id_pelaporan"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 97.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelaporan"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(93): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-08 02:20:02 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2023-01-08 02:20:45 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2023-01-08 02:24:12 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-08 02:24:12 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `pelaporan` SET `status_pelaporan` = \'Laporan Ditolak\'
+WHERE `id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pelaporan` SET `status_pelaporan` = \'Laporan Ditolak\'
+WHERE `id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pelaporan` SET `status_pelaporan` = \'Laporan Ditolak\'
+WHERE `id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `pelaporan` SET `status_pelaporan` = :status_pelaporan:
+WHERE `id` = :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\StatusPelaporan.php(33): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\StatusPelaporan->UpdateDitolak('1')
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StatusPelaporan))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

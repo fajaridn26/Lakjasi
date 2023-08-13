@@ -1,0 +1,740 @@
+CRITICAL - 2023-02-01 00:14:54 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:16:01 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:17:40 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:18:56 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:20:08 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:25:45 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:26:06 --> Call to undefined method App\Models\PelaporanModel::alldata
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(140): CodeIgniter\Model->__call('alldata', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:26:18 --> Undefined array key "nama"
+in APPPATH\Views\print-pdf.php on line 93.
+ 1 APPPATH\Views\print-pdf.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\print-pdf.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:26:27 --> Undefined array key "nama"
+in APPPATH\Views\print-pdf.php on line 93.
+ 1 APPPATH\Views\print-pdf.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\print-pdf.php', 93)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:27:38 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:29:01 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:31:05 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:33:53 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1841.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-01 00:42:50 --> Undefined variable $cellspacingx
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 18276.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(18276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellspacingx', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 18276)
+ 2 APPPATH\Controllers\PagesController.php(150): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\print-pdf.php -->
+<html>
+	<head>
+		<style>
+			table {
+			  font-family: arial, sans-serif;
+			  border-collapse: collapse;
+			  width: 100%;
+			}
+
+			td, th {
+			  border: 1px solid #000000;
+			  text-align: center;
+			  height: 20px;
+			  margin: 8px;
+			}
+
+		</style>
+    </head>
+	<body>
+  <div style="font-size:64px; color:\'#dddddd\'"><i>Cetak Data Laporan</i></div>
+                      <tr>
+                      <th scope="row">1</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3602531 , 112.7032829"
+                          target="_blank">-7.3602531                          , 112.7032829</a></td>
+                      <td>08-Jan-2023 12:00 AM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673166209_d5cd52d061a7a0de9288.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td>yes</td>
+                                          <tr>
+                      <th scope="row">2</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3602531 , 112.7032829"
+                          target="_blank">-7.3602531                          , 112.7032829</a></td>
+                      <td>08-Jan-2023 12:00 AM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673166514_33d244ebb362f118d46e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td>tes</td>
+                                          <tr>
+                      <th scope="row">3</th>
+                      <td>Sutris</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+                          target="_blank">-7.3465856                          , 112.7251968</a></td>
+                      <td>09-Jan-2023 12:00 AM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274316_568b2e15f5696b4fafb1.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td></td>
+                                          <tr>
+                      <th scope="row">4</th>
+                      <td>Alvin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+                          target="_blank">-7.3465856                          , 112.7251968</a></td>
+                      <td>09-Jan-2023 09:27 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274482_0572eb554b82c951326e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td>Menganggu sekali lubang jalannya
+</td>
+                                          <tr>
+                      <th scope="row">5</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+                          target="_blank">-7.3465856                          , 112.7251968</a></td>
+                      <td>09-Jan-2023 09:36 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274976_ef040b68c3fecb084f1c.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td></td>
+                                          <tr>
+                      <th scope="row">6</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3774503 , 112.6281385"
+                          target="_blank">-7.3774503                          , 112.6281385</a></td>
+                      <td>09-Jan-2023 09:39 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673275159_2993f391bb3d95fb1d27.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td></td>
+                                          <tr>
+                      <th scope="row">7</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.2574719 , 112.7520883"
+                          target="_blank">-7.2574719                          , 112.7520883</a></td>
+                      <td>12-Jan-2023 03:12 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1673511167_5a971db665e67d178742.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td>hahaha
+</td>
+                                          <tr>
+                      <th scope="row">8</th>
+                      <td>Admin</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.3181003 , 112.7271187"
+                          target="_blank">-7.3181003                          , 112.7271187</a></td>
+                      <td>19-Jan-2023 02:05 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1674111943_95fb564ed80ab99d492c.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td></td>
+                                          <tr>
+                      <th scope="row">9</th>
+                      <td>Dextar Mahdi Ghoravira</td>
+                      <td><a href="https://www.google.com/maps/?q=-7.2574719 , 112.7520883"
+                          target="_blank">-7.2574719                          , 112.7520883</a></td>
+                      <td>20-Jan-2023 04:43 PM</td>
+                      <td><a href="http://localhost:8080/assets/imagePelaporan/1674207837_0dd4ef9dbad2df09e83e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+                      <td></td>
+                      		</table>
+	</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\print-pdf.php -->
+')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:44:53 --> Undefined variable $tanggalawal
+in APPPATH\Views\print-pdf.php on line 27.
+ 1 APPPATH\Views\print-pdf.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggalawal', 'APPPATH\\Views\\print-pdf.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:44:58 --> Undefined variable $tanggalawal
+in APPPATH\Views\print-pdf.php on line 27.
+ 1 APPPATH\Views\print-pdf.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggalawal', 'APPPATH\\Views\\print-pdf.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:47:34 --> Undefined variable $tanggalawal
+in APPPATH\Views\print-pdf.php on line 27.
+ 1 APPPATH\Views\print-pdf.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggalawal', 'APPPATH\\Views\\print-pdf.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 01:03:44 --> Undefined variable $pelaporan
+in APPPATH\Views\print-pdf.php on line 37.
+ 1 APPPATH\Views\print-pdf.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\print-pdf.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(142): view('print-pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 01:06:34 --> Invalid file: PagesController/printpdf.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('PagesController/printpdf.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('PagesController/printpdf', [], true)
+ 3 APPPATH\Controllers\PagesController.php(142): view('PagesController/printpdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 01:17:22 --> Invalid file: printpdf.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('printpdf.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('printpdf', [], true)
+ 3 APPPATH\Controllers\PagesController.php(142): view('printpdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 01:33:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 01:33:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 01:35:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 01:35:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 01:35:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 01:35:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 01:36:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 01:36:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 01:37:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 01:37:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 01:39:42 --> Undefined array key 0
+in VENDORPATH\tecnickcom\tcpdf\tcpdf.php on line 17316.
+ 1 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(17316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'VENDORPATH\\tecnickcom\\tcpdf\\tcpdf.php', 17316)
+ 2 APPPATH\Controllers\PagesController.php(158): TCPDF->writeHTML('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\print-pdf.php -->
+<html>
+<head>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #000000;
+      text-align: center;
+      height: 20px;
+      margin: 6px;
+      font-size: 9px;
+    }
+  </style>
+</head>
+
+<body>
+  <div
+    style="font-size:35px; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center; text-shadow: black; font-weight: bold;">
+    Lakjasi</div>
+  <hr>
+  <div style="text-align: center;">
+    <h1><i>Cetak Data Pelaporan Kerusakan Jalan</i></h1><br>
+  </div>
+  <table cellpadding="6">
+    <tr style="background-color: steelblue; color:white">
+      <th><strong>No</strong></th>
+      <th><strong>Nama</strong></th>
+      <th><strong>Lokasi Jalan</strong></th>
+      <th><strong>Tanggal Pelaporan</strong></th>
+      <th><strong>Foto</strong></th>
+      <th><strong>Keterangan</strong></th>
+    </tr>
+        
+    <tr>
+      <td>1</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3602531 , 112.7032829"
+          target="_blank">-7.3602531          , 112.7032829</a></td>
+      <td>08-Jan-2023 12:00 AM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673166209_d5cd52d061a7a0de9288.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td>yes</td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3602531 , 112.7032829"
+          target="_blank">-7.3602531          , 112.7032829</a></td>
+      <td>08-Jan-2023 12:00 AM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673166514_33d244ebb362f118d46e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td>tes</td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>Sutris</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+          target="_blank">-7.3465856          , 112.7251968</a></td>
+      <td>09-Jan-2023 12:00 AM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274316_568b2e15f5696b4fafb1.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>4</td>
+      <td>Alvin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+          target="_blank">-7.3465856          , 112.7251968</a></td>
+      <td>09-Jan-2023 09:27 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274482_0572eb554b82c951326e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td>Menganggu sekali lubang jalannya
+</td>
+    </tr>
+    
+    <tr>
+      <td>5</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3465856 , 112.7251968"
+          target="_blank">-7.3465856          , 112.7251968</a></td>
+      <td>09-Jan-2023 09:36 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673274976_ef040b68c3fecb084f1c.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>6</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3774503 , 112.6281385"
+          target="_blank">-7.3774503          , 112.6281385</a></td>
+      <td>09-Jan-2023 09:39 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673275159_2993f391bb3d95fb1d27.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>7</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.2574719 , 112.7520883"
+          target="_blank">-7.2574719          , 112.7520883</a></td>
+      <td>12-Jan-2023 03:12 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1673511167_5a971db665e67d178742.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td>hahaha
+</td>
+    </tr>
+    
+    <tr>
+      <td>8</td>
+      <td>Admin</td>
+      <td><a href="https://www.google.com/maps/?q=-7.3181003 , 112.7271187"
+          target="_blank">-7.3181003          , 112.7271187</a></td>
+      <td>19-Jan-2023 02:05 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1674111943_95fb564ed80ab99d492c.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td></td>
+    </tr>
+    
+    <tr>
+      <td>9</td>
+      <td>Dextar Mahdi Ghoravira</td>
+      <td><a href="https://www.google.com/maps/?q=-7.2574719 , 112.7520883"
+          target="_blank">-7.2574719          , 112.7520883</a></td>
+      <td>20-Jan-2023 04:43 PM</td>
+      <td><a href="http://localhost:8080/assets/imagePelaporan/1674207837_0dd4ef9dbad2df09e83e.jpg" target="_blank">Lihat
+                          Foto</a></td>
+      <td></td>
+    </tr>
+      </table>
+</body>
+
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\print-pdf.php -->
+', true, false, true, false, 'ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 12:41:43 --> fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf', 'VENDORPATH\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://cetak-data-laporan.pdf', 'wb')
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(7763): TCPDF_STATIC::fopenLocal('file://cetak-data-laporan.pdf', 'wb')
+ 4 APPPATH\Controllers\PagesController.php(160): TCPDF->Output('cetak-data-laporan.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 12:44:31 --> fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf', 'VENDORPATH\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://cetak-data-laporan.pdf', 'wb')
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(7763): TCPDF_STATIC::fopenLocal('file://cetak-data-laporan.pdf', 'wb')
+ 4 APPPATH\Controllers\PagesController.php(160): TCPDF->Output('cetak-data-laporan.pdf', 'F')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 12:45:23 --> fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf
+in VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php on line 1811.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(): Remote host file access not supported, file://cetak-data-laporan.pdf', 'VENDORPATH\\tecnickcom\\tcpdf\\include\\tcpdf_static.php', 1811)
+ 2 VENDORPATH\tecnickcom\tcpdf\include\tcpdf_static.php(1811): fopen('file://cetak-data-laporan.pdf', 'wb')
+ 3 VENDORPATH\tecnickcom\tcpdf\tcpdf.php(7763): TCPDF_STATIC::fopenLocal('file://cetak-data-laporan.pdf', 'wb')
+ 4 APPPATH\Controllers\PagesController.php(160): TCPDF->Output('cetak-data-laporan.pdf', 'FD')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 12:59:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 12:59:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 13:04:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 13:04:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 13:05:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 13:05:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 13:05:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 13:05:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-02-01 13:05:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+CRITICAL - 2023-02-01 13:05:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal_pelaporan` < IS NULL' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelaporan`
+WHERE `tanggal_pelaporan` > IS NULL
+AND `tanggal_pelaporan` < IS NULL', [], false)
+ 5 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 13:23:22 --> Undefined array key "nama"
+in APPPATH\Views\print-pdf.php on line 44.
+ 1 APPPATH\Views\print-pdf.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\print-pdf.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\print-pdf.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('print-pdf', [], true)
+ 5 APPPATH\Controllers\PagesController.php(158): view('print-pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 14:04:41 --> Object of class DateTime could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('SELECT `nama`, `lat`, `long`, `tanggal_pelaporan`, `foto`, `keterangan`
+FROM `pelaporan`
+JOIN `akun` ON `pelaporan`.`id_akun` = `akun`.`id`
+WHERE `tanggal_pelaporan` >= :tanggal_pelaporan:
+AND `tanggal_pelaporan` <= :tanggal_pelaporan.1:', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('SELECT `nama`, `lat`, `long`, `tanggal_pelaporan`, `foto`, `keterangan`
+FROM `pelaporan`
+JOIN `akun` ON `pelaporan`.`id_akun` = `akun`.`id`
+WHERE `tanggal_pelaporan` >= :tanggal_pelaporan:
+AND `tanggal_pelaporan` <= :tanggal_pelaporan.1:', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `nama`, `lat`, `long`, `tanggal_pelaporan`, `foto`, `keterangan`
+FROM `pelaporan`
+JOIN `akun` ON `pelaporan`.`id_akun` = `akun`.`id`
+WHERE `tanggal_pelaporan` >= :tanggal_pelaporan:
+AND `tanggal_pelaporan` <= :tanggal_pelaporan.1:', [...], false)
+ 6 APPPATH\Controllers\PagesController.php(146): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->printpdf()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,269 @@
+CRITICAL - 2022-11-10 00:31:54 --> Undefined variable $nama
+in APPPATH\Views\dashboard.php on line 73.
+ 1 APPPATH\Views\dashboard.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\dashboard.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\PagesController.php(52): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 04:52:58 --> Unclosed '{' on line 8
+in APPPATH\Controllers\PagesController.php on line 94.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('PagesController/users_profile')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('PagesController/users_profile')
+ 3 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('PagesController/users_profile')
+ 4 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:28:42 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:30:43 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:30:51 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 73.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:30:55 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 73.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:32:13 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 73.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(67): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:43:48 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:43:52 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:43:58 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:44:04 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 05:44:06 --> Undefined variable $nama
+in APPPATH\Views\input-pelaporan-kerusakan.php on line 68.
+ 1 APPPATH\Views\input-pelaporan-kerusakan.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'APPPATH\\Views\\input-pelaporan-kerusakan.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\input-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('input-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(63): view('input-pelaporan-kerusakan')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->input_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:19:44 --> Undefined variable $email
+in APPPATH\Views\users-profile.php on line 252.
+ 1 APPPATH\Views\users-profile.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\users-profile.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(86): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:19:46 --> Undefined variable $email
+in APPPATH\Views\users-profile.php on line 252.
+ 1 APPPATH\Views\users-profile.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Views\\users-profile.php', 252)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(86): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:23:35 --> Undefined property: App\Controllers\AuthenticationController::$usersModel
+in APPPATH\Controllers\AuthenticationController.php on line 143.
+ 1 APPPATH\Controllers\AuthenticationController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AuthenticationController::$usersModel', 'APPPATH\\Controllers\\AuthenticationController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 07:25:45 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-11-10 07:25:45 --> Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `akun`
+WHERE `email` = \'sutris@gmail.com\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `akun`
+WHERE `email` = \'sutris@gmail.com\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `akun`
+WHERE `email` = \'sutris@gmail.com\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `akun`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\AuthenticationController.php(143): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 07:26:54 --> Undefined array key "email"
+in APPPATH\Controllers\AuthenticationController.php on line 152.
+ 1 APPPATH\Controllers\AuthenticationController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Controllers\\AuthenticationController.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-10 07:35:49 --> Duplicate entry 'sutris@gmail.com' for key 'PRIMARY'
+CRITICAL - 2022-11-10 07:35:49 --> Duplicate entry 'sutris@gmail.com' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `akun` (`email_pengguna`, `password`, `created_at`, `updated_at`) VALUES (\'sutris@gmail.com\', \'$2y$10$QFPkHNnUKpRlzQZAH2tAlepKPKMIqUdhZAB4dfskUvrz7vN1EX0a2\', \'2022-11-10 07:35:49\', \'2022-11-10 07:35:49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `akun` (`email_pengguna`, `password`, `created_at`, `updated_at`) VALUES (\'sutris@gmail.com\', \'$2y$10$QFPkHNnUKpRlzQZAH2tAlepKPKMIqUdhZAB4dfskUvrz7vN1EX0a2\', \'2022-11-10 07:35:49\', \'2022-11-10 07:35:49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `akun` (`email_pengguna`, `password`, `created_at`, `updated_at`) VALUES (\'sutris@gmail.com\', \'$2y$10$QFPkHNnUKpRlzQZAH2tAlepKPKMIqUdhZAB4dfskUvrz7vN1EX0a2\', \'2022-11-10 07:35:49\', \'2022-11-10 07:35:49\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `akun` (`email_pengguna`, `password`, `created_at`, `updated_at`) VALUES (:email_pengguna:, :password:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AuthenticationController.php(153): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:10:05 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\AuthenticationController.php on line 151.
+ 1 APPPATH\Controllers\AuthenticationController.php(151): password_hash('sutris26')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:13:42 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\AuthenticationController.php on line 145.
+ 1 APPPATH\Controllers\AuthenticationController.php(145): password_hash('tes')
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:23:26 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(789): CodeIgniter\Database\BaseBuilder->_whereIn('email_pengguna', 'sutris@gmail.com', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('email_pengguna', 'sutris@gmail.com')
+ 3 APPPATH\Controllers\AuthenticationController.php(152): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:26:21 --> whereIn() expects $values to be of type array or closure
+in SYSTEMPATH\Database\BaseBuilder.php on line 907.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(789): CodeIgniter\Database\BaseBuilder->_whereIn('email_pengguna', 'sutris@gmail.com', false, 'AND ', null)
+ 2 SYSTEMPATH\Model.php(771): CodeIgniter\Database\BaseBuilder->whereIn('email_pengguna', 'sutris@gmail.com')
+ 3 APPPATH\Controllers\AuthenticationController.php(152): CodeIgniter\Model->__call('whereIn', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-10 08:29:19 --> Undefined variable $email
+in APPPATH\Controllers\AuthenticationController.php on line 143.
+ 1 APPPATH\Controllers\AuthenticationController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'APPPATH\\Controllers\\AuthenticationController.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->updatepass('sutris@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

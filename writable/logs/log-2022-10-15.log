@@ -1,0 +1,60 @@
+CRITICAL - 2022-10-15 11:39:11 --> Undefined variable $akunmodel
+in APPPATH\Controllers\AuthenticationController.php on line 13.
+ 1 APPPATH\Controllers\AuthenticationController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akunmodel', 'APPPATH\\Controllers\\AuthenticationController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\AuthenticationController->__Construct()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-10-15 11:40:59 --> Class "Myth\Auth\Authentication\Passwords\ValidationRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 548.
+ 1 SYSTEMPATH\Validation\Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\AuthenticationController.php(22): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 11:52:31 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-10-15 11:52:31 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$6cBgNiDbVXakTkwA6Oq1betR6/G0JOwxNh/9HrBCJvfhliraKjT.a\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 11:52:31\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$6cBgNiDbVXakTkwA6Oq1betR6/G0JOwxNh/9HrBCJvfhliraKjT.a\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 11:52:31\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$6cBgNiDbVXakTkwA6Oq1betR6/G0JOwxNh/9HrBCJvfhliraKjT.a\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 11:52:31\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `akun` SET `nama` = :nama:, `email_pengguna` = :email_pengguna:, `password` = :password:, `tanggal_lahir` = :tanggal_lahir:, `no_whatsapp` = :no_whatsapp:, `role` = :role:, `status_active` = :status_active:, `updated_at` = :updated_at:
+WHERE `akun`.`email_pengguna` IN :akun.email_pengguna:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update('fajar@gmail.com', [...])
+ 9 APPPATH\Controllers\AuthenticationController.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-10-15 12:03:33 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-10-15 12:03:33 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$QxRrN9sQLSNjg9eoDg8mo.OEDySzwFh2vzCgE/S99OI1aN.L7Cmm2\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 12:03:33\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$QxRrN9sQLSNjg9eoDg8mo.OEDySzwFh2vzCgE/S99OI1aN.L7Cmm2\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 12:03:33\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `akun` SET `nama` = \'Fajar Indrawan\', `email_pengguna` = \'fajar@gmail.com\', `password` = \'$2y$10$QxRrN9sQLSNjg9eoDg8mo.OEDySzwFh2vzCgE/S99OI1aN.L7Cmm2\', `tanggal_lahir` = \'26 Februari 2001\', `no_whatsapp` = \'081936666423\', `role` = 2, `status_active` = 1, `updated_at` = \'2022-10-15 12:03:33\'
+WHERE `akun`.`email_pengguna` IN (\'fajar@gmail.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2046): CodeIgniter\Database\BaseConnection->query('UPDATE `akun` SET `nama` = :nama:, `email_pengguna` = :email_pengguna:, `password` = :password:, `tanggal_lahir` = :tanggal_lahir:, `no_whatsapp` = :no_whatsapp:, `role` = :role:, `status_active` = :status_active:, `updated_at` = :updated_at:
+WHERE `akun`.`email_pengguna` IN :akun.email_pengguna:', [...], false)
+ 5 SYSTEMPATH\Model.php(337): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(865): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [...])
+ 8 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->update('fajar@gmail.com', [...])
+ 9 APPPATH\Controllers\AuthenticationController.php(65): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->Register()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

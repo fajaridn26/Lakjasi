@@ -1,0 +1,818 @@
+ERROR - 2023-01-20 17:06:21 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:06:21 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('21')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:06:55 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:06:55 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('21')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:06:57 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:06:57 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('21')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:07:01 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:07:01 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:08:01 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:08:01 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:08:42 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:08:42 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:08:43 --> Undefined array key "id_pelaporan"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 113.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelaporan"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(94): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:08:50 --> Undefined array key "id_pelaporan"
+in APPPATH\Views\data-pelaporan-kerusakan.php on line 113.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pelaporan"', 'APPPATH\\Views\\data-pelaporan-kerusakan.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(94): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:09:13 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:09:13 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:09:30 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:09:30 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:10:35 --> Class "App\Controllers\StatusPelaporanModel" not found
+in APPPATH\Controllers\AuthenticationController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\AuthenticationController->__Construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:10:37 --> Class "App\Controllers\StatusPelaporanModel" not found
+in APPPATH\Controllers\AuthenticationController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\AuthenticationController->__Construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:11:24 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:11:24 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:12:54 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:12:54 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:13:23 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:13:23 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-20 17:15:03 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2023-01-20 17:15:03 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelaporan`
+WHERE `id` IN (\'9\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2358): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelaporan`
+WHERE `id` IN :id:', [...], false)
+ 5 SYSTEMPATH\Model.php(400): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(963): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\AuthenticationController.php(179): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthenticationController->hapusdataPelaporan('9')
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthenticationController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:25:53 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 392.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(152): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(94): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:25:59 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 392.
+ 1 APPPATH\Views\data-pelaporan-kerusakan.php(152): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data-pelaporan-kerusakan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('data-pelaporan-kerusakan', [], true)
+ 5 APPPATH\Controllers\PagesController.php(94): view('data-pelaporan-kerusakan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->data_pelaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:52:23 --> Undefined variable $value
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:52:31 --> Undefined variable $value
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:52:54 --> Undefined variable $value
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:53:30 --> Undefined variable $value
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:54:34 --> Undefined variable $pelaporan
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:54:47 --> Undefined variable $akun
+in APPPATH\Views\Template\navheader.php on line 100.
+ 1 APPPATH\Views\Template\navheader.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akun', 'APPPATH\\Views\\Template\\navheader.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\navheader.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('Template/navheader', null, true)
+ 5 APPPATH\Views\Template\index.php(56): CodeIgniter\View\View->include('Template/navheader')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Template\\index.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Template/index', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+10 APPPATH\Controllers\PagesController.php(46): view('dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:55:44 --> Undefined variable $value
+in APPPATH\Views\users-profile.php on line 27.
+ 1 APPPATH\Views\users-profile.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\users-profile.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:56:26 --> Undefined variable $pelaporan
+in APPPATH\Views\users-profile.php on line 26.
+ 1 APPPATH\Views\users-profile.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelaporan', 'APPPATH\\Views\\users-profile.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:56:31 --> Undefined variable $akun
+in APPPATH\Views\users-profile.php on line 26.
+ 1 APPPATH\Views\users-profile.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akun', 'APPPATH\\Views\\users-profile.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 17:57:33 --> Undefined variable $value
+in APPPATH\Views\users-profile.php on line 28.
+ 1 APPPATH\Views\users-profile.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\users-profile.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 5 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:00:40 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:01:14 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:01:48 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:02:03 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:02:27 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:03:21 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:03:28 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:03:40 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:24:18 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:24:30 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:24:59 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:25:00 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:25:10 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:25:11 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:26:23 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:26:34 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:26:38 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:33:38 --> Call to undefined method App\Models\AkunModel::no_whatsapp
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(105): CodeIgniter\Model->__call('no_whatsapp', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:34:00 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:34:18 --> Call to undefined method App\Models\AkunModel::no_whatsapp
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(105): CodeIgniter\Model->__call('no_whatsapp', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:34:24 --> Call to undefined method App\Models\AkunModel::no_whatsapp
+in SYSTEMPATH\Model.php on line 773.
+ 1 APPPATH\Controllers\PagesController.php(105): CodeIgniter\Model->__call('no_whatsapp', [])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:34:53 --> Too few arguments to function CodeIgniter\BaseModel::findColumn(), 0 passed in C:\xampp\htdocs\Lakjasi\app\Controllers\PagesController.php on line 105 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 548.
+ 1 APPPATH\Controllers\PagesController.php(105): CodeIgniter\BaseModel->findColumn()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:34:54 --> Too few arguments to function CodeIgniter\BaseModel::findColumn(), 0 passed in C:\xampp\htdocs\Lakjasi\app\Controllers\PagesController.php on line 105 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 548.
+ 1 APPPATH\Controllers\PagesController.php(105): CodeIgniter\BaseModel->findColumn()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:35:00 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:35:08 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(107): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:40:10 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:40:33 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:40:55 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:41:00 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:41:10 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 18:41:47 --> htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated
+in APPPATH\Views\users-profile.php on line 87.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated', 'APPPATH\\Views\\users-profile.php', 87)
+ 2 APPPATH\Views\users-profile.php(87): htmlspecialchars(null)
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\users-profile.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users-profile', [], true)
+ 6 APPPATH\Controllers\PagesController.php(106): view('users-profile', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->users_profile()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

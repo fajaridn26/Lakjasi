@@ -1,0 +1,78 @@
+ERROR - 2022-12-16 21:41:06 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-12-16 21:41:06 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `users`', null, false)
+ 5 APPPATH\Models\ModelUsers.php(10): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\PagesController.php(58): App\Models\ModelUsers->users()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 21:41:54 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-12-16 21:41:54 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `users`', null, false)
+ 5 APPPATH\Models\ModelUsers.php(10): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\PagesController.php(58): App\Models\ModelUsers->users()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 21:42:55 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-12-16 21:42:55 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `users`', null, false)
+ 5 APPPATH\Models\ModelUsers.php(10): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\PagesController.php(58): App\Models\ModelUsers->users()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 21:42:57 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-12-16 21:42:57 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `users`', null, false)
+ 5 APPPATH\Models\ModelUsers.php(10): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\PagesController.php(58): App\Models\ModelUsers->users()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 21:42:57 --> Table 'lakjasi.users' doesn't exist
+CRITICAL - 2022-12-16 21:42:57 --> Table 'lakjasi.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `users`', null, false)
+ 5 APPPATH\Models\ModelUsers.php(10): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\PagesController.php(58): App\Models\ModelUsers->users()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\PagesController->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PagesController))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-12-16 23:03:12 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:04:02 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:08:51 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:09:43 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:10:15 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:15:46 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:16:32 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-12-16 23:17:55 --> Can't create table `lakjasi`.`pelaporan` (errno: 150 "Foreign key constraint is incorrectly formed")
